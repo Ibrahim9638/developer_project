@@ -70,7 +70,7 @@ nav li {
 .btn-second {
 	background-color: orangered;
 	height: 40px;
-	width: 130px;
+	width: 150px;
 	color: #eeeeee;
 	font-size: 18px;
 	font-weight: 800;
@@ -82,7 +82,10 @@ nav li {
 	padding: 8px;
   display: flex;
 }
-
+#icon{
+  margin-right: 7px;
+  text-align: center;
+}
 .btn-contact{
   display: flex;
 }
@@ -201,7 +204,7 @@ opacity: 0.3;
 .btn-third {
 	background-color: orangered;
 	height: 50px;
-	width: 145px;
+	width: 160px;
 	color: #eeeeee;
 	font-size: 18px;
 	font-weight: 800;
