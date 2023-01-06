@@ -155,6 +155,59 @@ main{
 }
 /* Resume Section styles */
 
-.resume{
+.resume .btn-third{
+margin: 0 auto;
+}
+.section-title{
   text-align: center;
+}
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.resume-content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-title{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.resume-item{
+  font-weight: 800;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 15px;
+}
+.resume-sub-item{
+  color: #757575;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.resume-description{
+  color: #757575;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+hr{
+opacity: 0.3;
+}
+
+.resume-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-third {
+	background-color: orangered;
+	height: 50px;
+	width: 145px;
+	color: #eeeeee;
+	font-size: 18px;
+	font-weight: 800;
+	border: 0;
+	border-radius: 5px;
+	padding: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
